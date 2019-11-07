@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.creativeconsillium.drumsforafrica.kopo">
+
+    <application
+        android:name=".Kopo"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.AccountDebtLimitActivity"></activity>
+        <activity android:name=".Activity.AccountNotificationActivity" />
+        <activity android:name=".Activity.InviteFriendActivity" />
+        <activity android:name=".Activity.AccountLoanProvidersActivity" />
+        <activity android:name=".Activity.AccountBackupActivity" />
+        <activity android:name=".Activity.AccountAboutActivity" />
+        <activity android:name=".Activity.AccountChangePinActivity" />
+        <activity android:name=".Activity.AccountProfileActivity" />
+        <activity android:name=".Activity.AccountActivity" />
+        <activity android:name=".Activity.LoansPaymentInstructionsActivity" />
+        <activity android:name=".Activity.LoansPayLoanActivity" />
+        <activity android:name=".Activity.HomeActivity" />
+        <activity android:name=".Activity.LoanProvidersActivity" />
+        <activity android:name=".Activity.SignupActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.SplashChoiceActivity" />
+        <activity android:name=".Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

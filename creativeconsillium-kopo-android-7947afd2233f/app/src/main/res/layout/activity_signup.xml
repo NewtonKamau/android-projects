@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.creativeconsillium.drumsforafrica.kopo.Activity.SignupActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:clickable="true"
+                    android:onClick="openSplashChoice"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/back_arrow" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="32dp"
+                    android:fontFamily="@font/source_sans_pro_bold"
+                    android:text="Sign up"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/form_field_style"
+                    android:drawableLeft="@drawable/icon_profile"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:fontFamily="@font/source_sans_pro_regular"
+                    android:hint="Enter your full name"
+                    android:inputType="text"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/form_field_style"
+                    android:drawableLeft="@drawable/icon_phone"
+                    android:drawablePadding="20dp"
+                    android:ems="10"
+                    android:fontFamily="@font/source_sans_pro_regular"
+                    android:hint="Enter your phone number"
+                    android:inputType="phone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/form_field_style"
+                    android:drawableLeft="@drawable/icon_email"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:fontFamily="@font/source_sans_pro_regular"
+                    android:hint="Enter your email address"
+                    android:inputType="textEmailAddress"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/form_field_style"
+                    android:drawableLeft="@drawable/icon_lock"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:fontFamily="@font/source_sans_pro_regular"
+                    android:hint="Enter a new security PIN"
+                    android:inputType="numberPassword"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/form_field_style"
+                    android:drawableLeft="@drawable/icon_lock"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:fontFamily="@font/source_sans_pro_regular"
+                    android:hint="Re-enter your security PIN"
+                    android:inputType="numberPassword"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+                <Button
+                    android:id="@+id/btnAccountNotificationSaveSettings"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginBottom="32dp"
+                    android:background="@drawable/btn_blue_solid"
+                    android:fontFamily="@font/source_sans_pro_bold"
+                    android:onClick="openLoanProviders"
+                    android:text="sign in"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

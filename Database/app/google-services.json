@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "245346342560",
+    "firebase_url": "https://dabatabase.firebaseio.com",
+    "project_id": "dabatabase",
+    "storage_bucket": "dabatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245346342560:android:b69445d11df9310f801bc5",
+        "android_client_info": {
+          "package_name": "com.example.database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245346342560-ki4pdbn6595lq5ddpknbii3ag444imi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx0FojsxVP-9SZmN6fbFO_fkkMlTu5ldg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245346342560-ki4pdbn6595lq5ddpknbii3ag444imi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

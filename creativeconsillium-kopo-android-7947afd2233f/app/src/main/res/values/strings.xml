@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Kopo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="sAppCenterAppSecret">5b83ecd0-c1a3-4ca2-a473-4df3db1f7fd4</string>
+    <string name="sKopoUpdate">Kopo Update</string>
+
+    <string name="title_fragment_home">Home</string>
+    <string name="title_fragment_loans">My Loans</string>
+    <string name="title_fragment_unpaid_loan">Unpaid Loan</string>
+    <string name="title_fragment_paid_loan">Paid Loan</string>
+    <string name="title_fragment_overdue_loans">Overdue Loans</string>
+    <string name="title_fragment_reports">Reports</string>
+
+
+    <string name="txtMyLoans">My Loans</string>
+    <string name="txtViewAllYourLoans">View all your loans</string>
+    <string name="txtUnpaidLoans">Unpaid Loans</string>
+    <string name="txtOverdueLoans">Overdue Loans</string>
+    <string name="txtPaidLoans">Paid Loans</string>
+    <string name="txtLoansReport">Loans Report</string>
+    <string name="txtInviteAFriend">Invite a Friend</string>
+    <string name="txtInviteAFriendDescription">Help your friends track their loans.</string>
+    <string name="txt2019">2019</string>
+    <string name="txt10THMAY">10TH MAY</string>
+    <string name="txt15THMAY">15th MAY</string>
+    <string name="txt21STMAY">21ST MAY</string>
+    <string name="txt23RDMAY">23RD MAY</string>
+    <string name="txtFilter">Filter</string>
+    <string name="txtKSH2500">KSH 2,500</string>
+    <string name="txtKSH42500">KSH 42,500</string>
+    <string name="txtKSh15600">KSh. 15,600</string>
+    <string name="txtKSh5200">KSh. 5,200</string>
+    <string name="txtKSh3400">KSh. 3,400</string>
+    <string name="txtKSh4500">KSh. 4,500</string>
+    <string name="txtKSh85600">KSh. 85,600</string>
+    <string name="txtKSh25200">Ksh. 25,200</string>
+    <string name="txt8">8</string>
+    <string name="txtTotalInterestPaid">Total Interest Paid</string>
+    <string name="txtTotalAmountTaken">Total Amount Taken</string>
+    <string name="txtTotalLoansTaken">Total Loans Taken</string>
+    <string name="txtTotalAmountLoansTaken">Total Amount Loans Taken</string>
+    <string name="txt14Loans">14 loans</string>
+    <string name="txtTopLoanProviders">Top Loan Providers</string>
+    <string name="txtCurrentTotalLoanBalance">Current Total Loan Balance</string>
+    <string name="txtDueDate">Due Date</string>
+    <string name="txtDueToday">Due Today</string>
+    <string name="txtProvider">Provider</string>
+    <string name="txtAmount">Amount</string>
+    <string name="txtBorrowingDate">Borrowing Date</string>
+    <string name="txtPaymentDate">Payment Date</string>
+    <string name="txtInterest">Interest</string>
+    <string name="txtLoans">Loans</string>
+    <string name="txtInviteFriend">Share Kopo with your friends so they can learn more about their mobile loans.</string>
+    <string name="txtTestAppNotifications">Test App Notifications</string>
+    <string name="txtNotificationOptions">Notification Options</string>
+    <string name="txtReceiveDebtLimitAlerts">RECEIVE DEBT LIMIT ALERTS</string>
+    <string name="txtReceiveOverdueLoanAlerts">RECEIVE OVERDUE LOAN ALERTS</string>
+
+
+    <string name="btnPayLoan">Pay Loan</string>
+    <string name="btnSaveSettings">Save Settings</string>
+
+
+    <string name="radbtnDaily">Daily</string>
+    <string name="radbtnWeekly">Weekly</string>
+
+
+    <string name="imgvKopoLogo">Kopo Logo</string>
+    <string name="imgvUnpaidLoans">Unpaid Loans</string>
+    <string name="imgvOverdueLoans">Overdue Loans</string>
+    <string name="imgvPaidLoans">Paid Loans</string>
+    <string name="imgvLoansReport">Loans Report</string>
+    <string name="imgvInviteAFriend">Invite a Friend</string>
+    <string name="imgvChevronPrevious">Previous</string>
+    <string name="imgvChevronNext">Next</string>
+    <string name="imgvInterestPaid">Interest Paid</string>
+    <string name="imgvBorrowedAmount">Borrowed Amount</string>
+    <string name="imgvLoansTaken">Loans Taken</string>
+    <string name="imgvLoanProviderLogo">Loan Provider Logo</string>
+
+
+    <string name="tabUnpaidLoans">Unpaid Loans</string>
+    <string name="tabPaidLoans">Paid Loans</string>
+
+
+    <string name="dgtitleConfirmExit">Confirm Exit</string>
+    <string name="dgmsgConfirmExit">Are you sure you want to exit the App?</string>
+    <string name="dgbtnYesExit">Yes, Exit</string>
+    <string name="dgbtnNo">No</string>
+
+
+    <string name="snkmsgEnableOverdueLoanAlerts">Enable Overdue Loans Alerts to get Notifications!</string>
+    <string name="snkmsgEnableDebtLimitAlerts">Enable Debt Limit Alerts to get Notifications!</string>
+
+
+    <string name="nottitleTestDebtLimitAlert">Test Debt Limit Alert</string>
+    <string name="nottitleTestOverdueLoanAlert">Test Overdue Loan Alert</string>
+    <string name="notmsgTestDebtLimitAlert">You\'ve reached your Debt Limit! Go slow on the borrowing; you\'d now want to hold borrowing more loans till you pay off the some of the ones you currently have.</string>
+    <string name="notmsgTestOverdueLoanAlert">You\'ve got an Overdue Loan! Check it out - you might want to pay it ASAP.</string>
+
+
+</resources>

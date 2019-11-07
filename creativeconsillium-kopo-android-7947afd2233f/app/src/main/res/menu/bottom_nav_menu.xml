@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_loans"
+        android:enabled="true"
+        android:icon="@drawable/nav_loans"
+        android:title="Loans"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/nav_home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_reports"
+        android:enabled="true"
+        android:icon="@drawable/nav_reports"
+        android:title="Reports"
+        app:showAsAction="ifRoom" />
+
+</menu>
